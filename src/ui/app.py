@@ -9,7 +9,6 @@ from pathlib import Path
 import logging
 import time
 
-# Add src to path
 src_path = Path(__file__).parent.parent
 sys.path.insert(0, str(src_path))
 
